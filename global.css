@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px ;
+    
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column ;
+    background: red url("https://images.pexels.com/photos/1145720/pexels-photo-1145720.jpeg?cs=srgb&dl=pexels-steve-1145720.jpg&fm=jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    color: white;
+}
+
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    padding: 10px 0px 10px 0px;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+
+.second>input:hover{
+    color: brown;
+ }
+
+div>button{
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+
+}
+
+.first>label{
+    padding: 0px 0px 5px 0px;
+}
+
+.first>input{
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+
+.first>label:hover{
+    color: black;
+}
+
+.first>input:hover{
+    background-color: brown;
+}
+
+a{
+    color: cornsilk;
+}
+
+div>h1{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+div>h3{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
